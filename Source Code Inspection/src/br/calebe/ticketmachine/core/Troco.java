@@ -80,6 +80,8 @@ class Troco {
 
         @Override
         public void remove() {
+            //tipo de Defeito : Excesso 
+            //Descrição: o metodo esta chamando outro metdo que esta em um loop infinito 
             next();
         }
     }

@@ -18,6 +18,14 @@ public class PapelMoeda {
         return valor;
     }
 
+    public void setValor(int valor) {
+        this.valor = valor;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
     public int getQuantidade() {
         return quantidade;
     }
