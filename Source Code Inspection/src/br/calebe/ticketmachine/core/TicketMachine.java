@@ -56,5 +56,8 @@ public class TicketMachine {
         result += "*** R$ " + saldo + ",00 ****\n";
         result += "*****************\n";
         return result;
+        //Tipo de Defeito: Comissao
+        //Descrição: O saldo não está sendo alterado.
+    
     }
 }
