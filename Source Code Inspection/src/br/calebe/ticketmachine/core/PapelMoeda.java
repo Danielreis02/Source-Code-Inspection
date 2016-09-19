@@ -8,7 +8,9 @@ public class PapelMoeda {
 
     protected int valor;
     protected int quantidade;
-
+    
+  //Tipo de Defeito: Comissão
+  //Descrição: No diagrama de classes os atributos estão privados  
     public PapelMoeda(int valor, int quantidade) {
         this.valor = valor;
         this.quantidade = quantidade;
