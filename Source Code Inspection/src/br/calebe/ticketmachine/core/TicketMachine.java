@@ -48,6 +48,8 @@ public class TicketMachine {
 
     public String imprimir() throws SaldoInsuficienteException {
         if (saldo < valor) {
+            //Tipo de Defeito: Controle
+            //Descrição: A exceção poderia ser tratada de maneira diferente com mais detalhes.
             throw new SaldoInsuficienteException();
         }
         String result = "*****************\n";
