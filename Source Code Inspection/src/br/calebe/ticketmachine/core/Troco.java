@@ -84,6 +84,10 @@ class Troco {
                     ret = troco.papeisMoeda[i];
                     troco.papeisMoeda[i] = null;
                 }
+                //Tipo de Defeito: controle
+                // Descriçao:O if começa nesse caso ja ultima possição vetor (papeisMoeda)
+                //quando o (i) for incerrado vai gerar um erro de indice inexistente
+                // no vetor (papeisMoeda).
             }
             return ret;
         }
