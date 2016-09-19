@@ -40,6 +40,8 @@ public class TicketMachine {
 
     public Iterator<Integer> getTroco() {
         return null;
+        // Tipo de defeito: Comissão
+        // descrição: Não foi foi implementado nada no metodo.
     }
 
     public String imprimir() throws SaldoInsuficienteException {
