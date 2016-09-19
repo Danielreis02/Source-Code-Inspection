@@ -9,9 +9,13 @@ import java.util.Iterator;
  * @author Calebe de Paula Bianchini
  */
 public class TicketMachine {
-     //Tipo de Defeito: Comissão
+  //Tipo de Defeito: Comissão
  //Descrição: No diagrama de classes há uma classe de interface gráfica e nesse projeto ela não aparece.
-
+  
+  //Tipo de Defeito: Comissão
+ //Descrição: No diagrama de classes essa classe tem relação com a classe (Troco ) e aqui está faltando um objeto da classe
+ // ( Troco )
+    
     protected int valor;
     protected int saldo;
     protected int[] papelMoeda = {2, 5, 10, 20, 50, 100};
