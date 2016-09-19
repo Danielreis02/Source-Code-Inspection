@@ -19,7 +19,9 @@ public class TicketMachine {
     public TicketMachine(int valor) {
         this.valor = valor;
         this.saldo = 0;
-    }
+    }//Tido de Defeito: Controle
+      //Descreição: A verificação do if sempre acontece com a mesma nota, ( 5 ).
+            
 
     public void inserir(int quantia) throws PapelMoedaInvalidaException {
         boolean achou = false;
