@@ -65,6 +65,10 @@ class Troco {
         @Override
         public boolean hasNext() {
             for (int i = 6; i >= 0; i++) {
+                
+                // Tipo de Defeito: Controle
+                //Descrição: o for esta com sus condiçoes erradas causando um 
+                //loop eterno onde a variavel (i) sempre será maior que zero 
                 if (troco.papeisMoeda[i] != null) {
                     return true;
                 }
