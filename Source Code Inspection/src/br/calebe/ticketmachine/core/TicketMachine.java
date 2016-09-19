@@ -9,6 +9,8 @@ import java.util.Iterator;
  * @author Calebe de Paula Bianchini
  */
 public class TicketMachine {
+     //Tipo de Defeito: Comissão
+ //Descrição: No diagrama de classes há uma classe de interface gráfica e nesse projeto ela não aparece.
 
     protected int valor;
     protected int saldo;
@@ -57,7 +59,7 @@ public class TicketMachine {
         result += "*****************\n";
         return result;
         //Tipo de Defeito: Comissao
-        //Descrição: O saldo não está sendo alterado.
-    
+        //Descrição: O saldo não está sendo alterado.    }
+
     }
 }
