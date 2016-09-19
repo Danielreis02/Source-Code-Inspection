@@ -13,7 +13,9 @@ public class TicketMachine {
     protected int valor;
     protected int saldo;
     protected int[] papelMoeda = {2, 5, 10, 20, 50, 100};
-
+  //Tipo de Defeito: Comissão
+  // Descrição: no diagrama de classes o construtor (ticketmachine)
+    //não tem o atributo valor esta especificado é precoDoBilhete.
     public TicketMachine(int valor) {
         this.valor = valor;
         this.saldo = 0;
