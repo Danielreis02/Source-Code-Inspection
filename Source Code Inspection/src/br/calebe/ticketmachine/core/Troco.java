@@ -24,6 +24,8 @@ class Troco {
         count = 0;
         while (valor % 50 != 0) {
             count++;
+            //Tipo de Defeito:Desempenho
+            // Descriçao: o loop esta sendo usado sem necessidade
         }
         papeisMoeda[4] = new PapelMoeda(50, count);
         count = 0;
