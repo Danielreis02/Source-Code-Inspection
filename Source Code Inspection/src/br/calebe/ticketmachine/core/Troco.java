@@ -15,6 +15,10 @@ class Troco {
         int count = 0;
         while (valor % 100 != 0) {
             count++;
+            //Tipo de Defeito: Desempenho 
+            //Descriçao: o loop esta sendo usado sem necessidade.
+            //Descriçao: Aa condiçao dentro do loop so vai parar de 
+            //executar se o valor for multiplo de 100 caso entrara em loop.  
         }
         papeisMoeda[5] = new PapelMoeda(100, count);
         count = 0;
