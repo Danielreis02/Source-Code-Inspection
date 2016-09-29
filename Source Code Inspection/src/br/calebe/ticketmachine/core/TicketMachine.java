@@ -22,6 +22,12 @@ public class TicketMachine {
   //Tipo de Defeito: Comissão
   // Descrição: no diagrama de classes o construtor (ticketmachine)
     //não tem o atributo valor esta especificado é precoDoBilhete.
+
+    public TicketMachine() {
+    }
+    
+    
+    
     public TicketMachine(int valor) {
         this.valor = valor;
         this.saldo = 0;
@@ -32,7 +38,7 @@ public class TicketMachine {
     public void inserir(int quantia) throws PapelMoedaInvalidaException {
         boolean achou = false;
         for (int i = 0; i < papelMoeda.length && !achou; i++) {
-            if (papelMoeda[1] == quantia) {
+            if (papelMoeda[i] == quantia) {
                 achou = true;
             }
         }

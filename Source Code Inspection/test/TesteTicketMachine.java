@@ -5,6 +5,10 @@
  */
 
 
+import br.calebe.ticketmachine.core.TicketMachine;
+import br.calebe.ticketmachine.exception.PapelMoedaInvalidaException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import junit.framework.Assert;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -28,9 +32,16 @@ public class TesteTicketMachine {
    
      @Test
      public void hello() {
-      int x=0;
-        int y=2;
-     Assert.assertEquals(2, y);
+     TicketMachine ticketMachine = new TicketMachine();
+        
+        try {
+            ticketMachine.inserir(10);
+     Assert.assertEquals(10, ticketMachine.getSaldo());
+        } catch (PapelMoedaInvalidaException ex) {
+            Logger.getLogger(TesteTicketMachine.class.getName()).log(Level.SEVERE, null, ex);
+        }
+     
+        
      
      
      }
